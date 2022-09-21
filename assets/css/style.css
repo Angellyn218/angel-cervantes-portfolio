@@ -1,26 +1,70 @@
 * {
-    background-color: lavender;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lavender;
+    text-align: center;
 }
 
-h1,
-h2,
-h3 {
+figure {
+    padding-top: 15px;
+    font-size: smaller;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 4px solid black;
+}
+figcaption {
+    padding-bottom: 5px;
+}
+
+p {
+    text-align: left;
+    line-height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+
+header {
+    display: block;
     text-align: center;
     position: relative;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darkblue;
 }
 
-img {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    left: 35%;
+header h1 {
+    background-color: darkblue;
+   color: white;
 }
-header, 
+
 footer {
     display: block;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color:  aquamarine;
 }
+
+footer h2, 
+label, 
+span {
+    background-color:  aquamarine;
+}
+
+input {
+    background-color: white;
+}
+
+
 .input {
     text-align: center;
     position: relative;
+    background-color:  aquamarine;
 }
